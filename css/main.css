@@ -1,0 +1,52 @@
+:root {
+  --bs-blue: #C78C06;
+  --bs-primary: #C78C06;
+  --bs-primary-rgb: 199, 140, 6;
+  --bs-secondary: #FFE6AC;
+  --bs-secondary-rgb: 255, 230, 172;
+  --bs-dark: #222;
+  --bs-dark-rgb: 34, 34, 34;
+}
+
+.btn-primary {
+  border-color: var(--bs-primary) !important;
+  background-color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary,
+.border-primary {
+  border-color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary {
+  color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--bs-primary) !important;
+  color: var(--bs-dark) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--bs-primary);
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--bs-dark);
+  background-color: var(--bs-primary);
+}
+
+.banner {
+  background: var(--bs-dark) url(../images/main-banner.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.vision {
+  background: var(--bs-dark) url(../images/vision.jpg) no-repeat center;
+  background-size: cover;
+}
